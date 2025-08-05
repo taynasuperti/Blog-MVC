@@ -1,0 +1,53 @@
+Configurando o GIT:
+
+git config --global user.name taynasuperti
+git config --global user.email taynasuperti@gmail.co
+
+cls pra limpar o terminal
+
+Como ver se o dotnet está instalado na sua máquina:
+dotnet --list-sdks
+
+Criando um projeto MVC:
+dotnet new mvc -o nomedoprojeto o nome do projeto tem que ser em maiúsculo | (serve pra criar o projeto dentro da pasta direto)
+dotnet new mvc -o SimpleBlog
+
+Para executar:
+dotnet watch run
+antes tem que colocar assim o terminal: cd nomedoprojeto
+
+M: Models -> exibição
+V: Views -> busca a exibição
+C: Controller -> comanda as requisições
+
+a pasta .vscode é quem comanda a compilação (e o botão de debbug), com ela pode usar o F5 pra compilar ao invés de fazer no terminal
+
+using: chama funções e bibliotecas de fora pro seu projeto funcinar
+namespace: é o nome|endereço da classe que você criou (tb coloca o final do nome de acordo com o nome da página)
+class: public (classe publica) class (a class é quem cria o objeto) nomedaclasse 
+
+O HomeController é quem sempre chama a Index da Views
+
+sempre que for fazer uma nova página, tem que criar essa estrutura no HomeController:
+public IActionResult Privacy()
+    {
+        return View();
+    }
+
+readonly cria o log: que "diz" tudo o que aconteceu dentro da aplicação
+
+é um exemplo de dependencia: 
+public HomeController(ILogger<HomeController> logger)
+    {
+        _logger = logger;
+    } serve pra injetar no produto todas as dependencias que vc precisa 
+
+só da pra mandar arquivos de View pra View ou View pra Controller
+
+main: área principal da página
+@RenderBody(): é uma função| ele é uma renderização, que faz com que a página criada na shared (onde ele está) faz exibir o conteúdo dele na página que ele está sendo selecionado
+@RenderSection(): ele renderiza em vários lugares, ou seja, chama as seções criadas no fora (tipo o js ou css)
+
+~/ remete a pasta inicial de cada arquivo | geralmente sempre manda pra wwwroot
+o projt é a versão do projeto
+o programs comanda os requerimentos e rotas usadas em todos o projeto
