@@ -51,3 +51,7 @@ main: área principal da página
 ~/ remete a pasta inicial de cada arquivo | geralmente sempre manda pra wwwroot
 o projt é a versão do projeto
 o programs comanda os requerimentos e rotas usadas em todos o projeto
+
+
+poliformismo: vários jeitos de se fazer o msm objeto | para construir metodos de difersas formas
+ (os nomes das váriaveis podem ser os mesmos)
