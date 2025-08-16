@@ -131,6 +131,11 @@ public class HomeController : Controller
         return View(postagens);
     }
 
+    public IActionResult Postagemn(int id) 
+    {
+        return View();
+    }
+
     public IActionResult Privacy()
     {
         return View();
