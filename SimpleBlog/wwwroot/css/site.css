@@ -9,7 +9,7 @@ html {
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+  box-shadow: 0 0 0 0.1rem whi  te, 0 0 0 0.25rem #258cfb;
 }
 
 html {
@@ -17,8 +17,19 @@ html {
   min-height: 100%;
 }
 
+.navbar {
+  background-color: #1e1e1e !important;
+}
+
+
+.navbar, .navbar a, .navbar-brand, .navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+
+
 body {
   margin-bottom: 60px;
+  background-color: #1e1e1e;
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
@@ -28,4 +39,30 @@ body {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
+}
+
+.card {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: none; /* opcional, remove borda padrão */
+}
+
+.card-title,
+.card-text,
+.card-body,
+.card .btn,
+.card small {
+  color: #ffffff !important;
+}
+
+.card a {
+  color: red !important;
+}
+
+.footer {
+  color: #ffffff !important; /* cor do texto */
+}
+
+.footer a {
+  color: #ffffff; /* cor dos links */
 }
