@@ -43,7 +43,7 @@ public class HomeController : Controller
         Categoria = terror,
         DataPostagem = DateTime.Parse("01/08/2025"),
         Descricao = "Terror psicológico e sobrenatural em diferentes histórias assustadoras.",
-        Texto = "American Horror Story é uma série antológica que apresenta uma nova história de terror a cada temporada. Desde casas mal-assombradas até hospícios e seitas, cada enredo mergulha em um tipo de medo diferente. A produção é conhecida por seu estilo visual impactante, atuações intensas e críticas sociais sutis.",
+        Texto = "<b>Gênero: </b> Terror, suspense, drama. </br> <b>Formato:</b> Série antológica (cada temporada tem uma história diferente). </br> <b>Sinopse:</b> Criada por Ryan Murphy e Brad Falchuk, cada temporada mergulha em um universo sombrio e independente — mansões assombradas, hospitais psiquiátricos, circos de aberrações, hotéis macabros, cultos sinistros e até o apocalipse. A série é conhecida por seu elenco recorrente e por misturar horror psicológico com crítica social. </br> <b>Onde assistir: </b> Star+",
         Thumbnail = "/img/american-horror.jpg",
         Foto = "/img/american-horror.jpg"
     },
@@ -54,7 +54,7 @@ public class HomeController : Controller
         Categoria = terror,
         DataPostagem = DateTime.Parse("03/08/2025"),
         Descricao = "O apocalipse zumbi que virou fenômeno mundial.",
-        Texto = "The Walking Dead acompanha um grupo de sobreviventes em um mundo devastado por zumbis. A série vai além do terror, explorando a natureza humana, dilemas morais e o preço da sobrevivência. Ao longo das temporadas, se destaca por seu desenvolvimento de personagens e momentos icônicos.",
+        Texto = "<b>Gênero: </b>Drama, terror, apocalipse zumbi</br> <b>Sinopse:</b> Após acordar de um coma, o xerife Rick Grimes descobre que o mundo foi devastado por uma infestação de zumbis. Ele se junta a um grupo de sobreviventes em busca de segurança, enfrentando não só os mortos-vivos, mas também os perigos dos próprios humanos. A série explora os limites da sobrevivência e da moral em um mundo sem regras. </br> <b>Onde assistir: </b>Disney+ e Netflix ",
         Thumbnail = "/img/the-walking-dead.webp",
         Foto = "/img/the-walking-dead.webp"
     },
@@ -65,7 +65,7 @@ public class HomeController : Controller
         Categoria = suspense,
         DataPostagem = DateTime.Parse("05/08/2025"),
         Descricao = "Trabalho e vida pessoal separados por uma cirurgia misteriosa.",
-        Texto = "Em Ruptura, funcionários de uma empresa tecnológica se submetem a um procedimento que separa suas memórias profissionais das pessoais. A série é envolvente e perturbadora, trazendo questionamentos sobre identidade, ética no trabalho e a fragilidade da consciência humana.",
+        Texto = "<b>Gênero: </b>Suspense psicológico, ficção científica. </br ><b>Sinopse:</b> Funcionários da misteriosa empresa Lumon passam por um procedimento que separa completamente suas memórias pessoais das profissionais. Dentro do trabalho, não sabem quem são fora dali — e vice-versa. Quando Mark começa a desconfiar dos verdadeiros propósitos da empresa, inicia uma jornada perturbadora sobre identidade, controle e liberdade. </br> <b>Onde assistir: </b>Apple TV+",
         Thumbnail = "/img/ruptura.jpg",
         Foto = "/img/ruptura.jpg"
     },
@@ -76,7 +76,7 @@ public class HomeController : Controller
         Categoria = suspense,
         DataPostagem = DateTime.Parse("07/08/2025"),
         Descricao = "Segredos, ameaças e mistério entre adolescentes de Rosewood.",
-        Texto = "Pretty Little Liars segue a vida de quatro amigas assombradas pelo desaparecimento de sua líder e por mensagens ameaçadoras de alguém chamado 'A'. A série mistura drama adolescente com muito suspense, reviravoltas e intrigas que prendem a atenção do início ao fim.",
+        Texto = "<b>Gênero: </b>Drama, mistério, suspense adolescente. </br><b>Sinopse:</b> Em Rosewood, quatro amigas tentam seguir com suas vidas após o desaparecimento de Alison, a líder do grupo. Um ano depois, começam a receber mensagens ameaçadoras de alguém que assina como “A”, revelando segredos que só Alison conhecia. A série mistura romance, intrigas e muitos mistérios ao longo de suas oito temporadas.",
         Thumbnail = "/img/pretty-little-liars.jpg",
         Foto = "/img/pretty-little-liars.jpg"
     },
@@ -87,7 +87,7 @@ public class HomeController : Controller
         Categoria = acao,
         DataPostagem = DateTime.Parse("09/08/2025"),
         Descricao = "Dois irmãos enfrentando demônios, monstros e o sobrenatural.",
-        Texto = "Supernatural acompanha os irmãos Winchester em sua jornada para caçar criaturas sobrenaturais, enfrentar o apocalipse e lidar com seus próprios demônios. Com 15 temporadas, a série se tornou um marco da cultura pop, misturando ação, humor, drama e mitologia.",
+        Texto = "<b>Gênero: </b>Terror, fantasia, ação. </br> <b>Sinopse:</b> Sam e Dean Winchester são irmãos que percorrem os Estados Unidos caçando criaturas sobrenaturais — demônios, fantasmas, vampiros e muito mais. Após a morte misteriosa da mãe, eles seguem os passos do pai e mergulham em uma guerra entre o bem e o mal que envolve anjos, demônios e até o próprio apocalipse. </br> <b>Onde assistir: </b>Prime Video, HBO Max",
         Thumbnail = "/img/supernatural.jpg",
         Foto = "/img/supernatural.jpg"
     },
@@ -98,7 +98,7 @@ public class HomeController : Controller
         Categoria = acao,
         DataPostagem = DateTime.Parse("11/08/2025"),
         Descricao = "Ação intensa e uma corrida contra o tempo.",
-        Texto = "Contagem Regressiva é uma série repleta de adrenalina, onde cada episódio coloca seus personagens diante de decisões críticas em situações-limite. Com ritmo acelerado e reviravoltas constantes, prende o espectador do começo ao fim.",
+        Texto = "<b>Gênero: </b>Suspense policial, ação. </br> <b>Sinopse:</b> Um agente do Departamento de Segurança Interna é assassinado em plena luz do dia, e o detetive Mark Meachum (Jensen Ackles) é convocado para uma força-tarefa secreta. O que começa como uma investigação simples se transforma em uma corrida contra o tempo para impedir um ataque terrorista que ameaça milhões. </br> <b>Onde assistir: </b>Amazon Prime Video",
         Thumbnail = "/img/contagem-regressiva.jpg",
         Foto = "/img/contagem-regressiva.jpg"
     },
@@ -109,7 +109,7 @@ public class HomeController : Controller
         Categoria = ficcao,
         DataPostagem = DateTime.Parse("13/08/2025"),
         Descricao = "Amizade, poderes sobrenaturais e anos 80 em uma história envolvente.",
-        Texto = "Stranger Things se passa em uma cidade pequena onde crianças desaparecem e eventos estranhos ocorrem. Um portal para uma dimensão paralela, conhecida como Mundo Invertido, é descoberto, trazendo ameaças misteriosas. A série é um sucesso global por sua mistura de ficção científica, terror e nostalgia dos anos 80.",
+        Texto = "<b>Gênero: </b>Ficção científica, suspense, drama.  </br> <b>Sinopse:</b> Na pacata cidade de Hawkins, Indiana, nos anos 80, um garoto desaparece misteriosamente. Enquanto sua mãe e amigos o procuram, descobrem uma garota com poderes telecinéticos e um portal para uma dimensão sombria chamada Mundo Invertido. A série mistura nostalgia, mistério e criaturas aterrorizantes. </br> <b>Onde assistir: </b> Netflix",
         Thumbnail = "/img/stranger-things.jpg",
         Foto = "/img/stranger-things.jpg"
     },
@@ -120,7 +120,7 @@ public class HomeController : Controller
         Categoria = ficcao,
         DataPostagem = DateTime.Parse("15/08/2025"),
         Descricao = "O Senhor dos Sonhos em uma jornada para restaurar seu reino.",
-        Texto = "Baseada na aclamada HQ de Neil Gaiman, Sandman narra a história de Morpheus, a entidade que governa os sonhos. Após ser aprisionado por décadas, ele precisa recuperar seus artefatos e restaurar a ordem do mundo onírico. A série combina fantasia, filosofia e visuais impressionantes.",
+        Texto = "<b>Gênero: </b>Fantasia, drama. </br> <b>Sinopse:</b> Morpheus, o Rei dos Sonhos, é capturado por um mago que tentava aprisionar a Morte. Após décadas preso, ele escapa e parte em busca de seus artefatos mágicos para restaurar seu reino. Baseada nos quadrinhos de Neil Gaiman, a série mergulha em temas como mitologia, sonhos e o equilíbrio entre mundos. </br> <b>Onde assistir: </b>Netflix",
         Thumbnail = "/img/sandman.jpeg",
         Foto = "/img/sandman.jpeg"
     }

@@ -27,6 +27,9 @@ html {
   color: #ffffff !important;
 }
 
+b {
+  color: red !important;
+}
 
 body {
   margin-bottom: 60px;
