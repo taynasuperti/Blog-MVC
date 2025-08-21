@@ -133,7 +133,7 @@ public class HomeController : Controller
         return View(postagens);
     }
 
-    public IActionResult Postagemn(int id)
+    public IActionResult Postagem(int id)
     {
         var postagem = postagens
             .Where(p => p.Id == id)
