@@ -7,14 +7,12 @@ namespace SimpleBlog.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private List<Categoria> categorias;
+    private List<Postagem> postagens;
 
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
-    }
-
-    public IActionResult Index()
-    {
         Categoria suspense = new();
         suspense.Id = 1;
         suspense.Nome = "Terror";
@@ -37,7 +35,7 @@ public class HomeController : Controller
             Nome = "Ficção"
         };
 
-        List<Postagem> postagens = [
+        postagens = [
      new() {
         Id = 1,
         Nome = "American Horror Story",
@@ -128,12 +126,21 @@ public class HomeController : Controller
     }
  ];
 
+    }
+
+    public IActionResult Index()
+    {
         return View(postagens);
     }
 
-    public IActionResult Postagemn(int id) 
+    public IActionResult Postagemn(int id)
     {
-        return View();
+        var postagem = postagens
+            .Where(p => p.Id == id)
+            .SingleOrDefault();
+        if(postagem == null)
+            return NotFound();
+        return View(postagem);
     }
 
     public IActionResult Privacy()

@@ -1,4 +1,27 @@
+@model Postagem
 @{
     ViewData["Title"] = "Postagem";
 }
 
+<div class="container">
+    <div class="row my-5">
+        @* Postagem *@
+        <div class="col-md-8">
+            <article class="blog-post mb-4">
+                <h2 class="blog-post-title">
+                    @Model.Nome
+                </h2>
+                <p class="blog-post-meta">
+                    @Model.DataPostagem.ToString("dd 'de' MMMM 'de' yyyy")
+                </p>
+                <p>@Model.Descricao</p>
+                <img src="@Model.Foto" alt="@Model.Nome" class="img-fluid mb-3">
+                <p>@Html.Raw(Model.Texto)</p>
+            </article>
+        </div>
+        @* Sidebar *@
+        <div class="col-md-4">
+
+        </div>
+    </div>
+</div>
