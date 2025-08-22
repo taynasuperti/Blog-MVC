@@ -29,6 +29,13 @@ html {
 
 b {
   color: red !important;
+  text-shadow: 2px 2px 5px rgb(177, 5, 5);
+}
+
+.texto {
+  color: rgb(177, 5, 5) !important;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgb(112, 3, 3);
 }
 
 body {
@@ -71,6 +78,12 @@ body {
 .background-color {
   background-color: rgb(177, 5, 5) !important;
   border-bottom: 2px solid rgb(112, 3, 3) !important; 
+}
+
+.img-post{
+  border-radius: 5px;
+  border-bottom:  4px solid #0f0f0faf !important;
+  border-right: 3px solid #0f0f0faf !important;
 }
 
 .footer {
