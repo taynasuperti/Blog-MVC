@@ -76,7 +76,7 @@ public class HomeController : Controller
         Categoria = suspense,
         DataPostagem = DateTime.Parse("07/08/2025"),
         Descricao = "Segredos, ameaças e mistério entre adolescentes de Rosewood.",
-        Texto = "<b>Gênero: </b>Drama, mistério, suspense adolescente. </br><b>Sinopse:</b> Em Rosewood, quatro amigas tentam seguir com suas vidas após o desaparecimento de Alison, a líder do grupo. Um ano depois, começam a receber mensagens ameaçadoras de alguém que assina como “A”, revelando segredos que só Alison conhecia. A série mistura romance, intrigas e muitos mistérios ao longo de suas oito temporadas.",
+        Texto = "<b>Gênero: </b>Drama, mistério, suspense adolescente. </br><b>Sinopse:</b> Em Rosewood, quatro amigas tentam seguir com suas vidas após o desaparecimento de Alison, a líder do grupo. Um ano depois, começam a receber mensagens ameaçadoras de alguém que assina como “A”, revelando segredos que só Alison conhecia. A série mistura romance, intrigas e muitos mistérios ao longo de suas oito temporadas. </br> <b>Onde assistir: </b> HBO MAX",
         Thumbnail = "/img/pretty-little-liars.jpg",
         Foto = "/img/pretty-little-liars.jpg"
     },
